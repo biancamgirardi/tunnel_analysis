@@ -8,7 +8,7 @@
 !** considerando um modelo 3D 				   **!
 !** 							   **!
 !** Programador: Felipe Quevedo e Carlos Alberto	   **!
-!** Situação : OK (11/07/2020) 				   **!
+!** Situação : OK (08/08/24) 				   **!
 !** Unidades : [F/A, L, t] = MPa, m, dias		   **!
 !** 							   **!
 !************************************************************!
