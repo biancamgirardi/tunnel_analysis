@@ -104,7 +104,7 @@ nu1 		= 0.3		 ! [adm] coeficiente de poisson (1,2,22,23,4,5,6,7,8)
 !                                
 ! Parametros para o modelo 2, 22, 6 e 8
 superficief	= 2		 ! função de escoamento: 1-DPI, 2-DPII, 3-DPIII, 4-MC (6,8)
-superficieg 	= 2		 ! função potencial: 1-DPI, 2-DPII, 3-DPIII (6,8)
+superficieg 	= 2		 ! função potencial: 1-DPI, 2-DPII, 3-DPIII, 4-MC (6,8)
 fi	    	= 30		 ! [graus] angulo de atrito (0 - VM ou TR) (6,8)
 psi	    	= fi		 ! [graus] angulo de dilatância (6,8)
 c1	    	= 5		 ! [MPa] coesão inicial (2,22,23,4,6,8)
@@ -116,8 +116,8 @@ eps3	    	= 0.010		 ! [adm] deformação equiv. limite da zona 3 (22,6,8)
 Dalg		= 1		 ! 0 - módulo elastico, 1 - módulo algoritmíco (6,8)
 !                                
 ! Parametros para o modelo 23, 7 e 8
-superficiefvp 	= 2		 ! função de escoamento: 1-DPI, 2-DPII, 3-DPIII (7,8)
-superficiegvp 	= 2		 ! função potencial: 1-DPI, 2-DPII, 3-DPIII (7,8)
+superficiefvp 	= 2		 ! função de escoamento: 1-DPI, 2-DPII, 3-DPIII, 4-MC (7,8)
+superficiegvp 	= 2		 ! função potencial: 1-DPI, 2-DPII, 3-DPIII, 4-MC (7,8)
 fivp          	= 0		 ! [graus] angulo de atrito (0 - VM ou TR)(7,8)
 psivp         	= fivp		 ! [graus] angulo de dilatância (7,8)
 cvp 	      	= 2*SQRT(3)/2	 ! [MPa] coesão viscoplastica (23,7,8)
