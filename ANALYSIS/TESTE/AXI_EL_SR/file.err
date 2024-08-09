@@ -1,0 +1,21 @@
+/COM,ANSYS RELEASE 2024 R2           BUILD 24.2      UP20240513       16:25:22
+
+ *** WARNING ***                         CP =       0.094   TIME= 16:25:23
+ Shape testing revealed that 6 of the 30 new or modified elements        
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       0.328   TIME= 16:25:24
+ Previous testing revealed that 6 of the 3220 selected elements violate  
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***                         CP =       0.328   TIME= 16:25:24
+ The program chosen initial timestep/load-factor is arbitrary.  It is    
+ necessary for the user to supply a suitable initial                     
+ timestep/load-factor through the NSUB or DELTIM command for             
+ convergence and overall efficiency.                                     
+
+ *** WARNING ***                         CP =       0.844   TIME= 16:25:24
+ The view for graph plots is currently NOT changeable.                   
+  To enable graph view manipulation, issue /GROPTS,VIEW,1.               
