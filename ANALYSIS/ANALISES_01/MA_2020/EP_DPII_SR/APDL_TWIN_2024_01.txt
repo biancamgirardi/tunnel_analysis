@@ -63,21 +63,33 @@ d1 		= 5		! [Re] distância entre eixos dos túneis longitudinais
 ! o valor de d5 é ajustado de modo a ter uma discretização na região da galeria
 !
 !
-*IF,d1,EQ,16,THEN
-	d5		= 6			
-	Lp1		= 0.3387*re1
-*ELSEIF,d1,EQ,4,THEN
+*IF,d1,EQ,2.5,THEN
+	   
+		  
+		    
 	d5		= 2
-	Lp1		= 0.3*re1
+	Lp1		= 0.25*re1
 *ELSEIF,d1,EQ,3,THEN
 	d5		= 2
 	Lp1		= 0.25*re1
+*ELSEIF,d1,EQ,4,THEN
+	d5		= 2
+	Lp1		= 0.3*re1
 *ELSEIF,d1,EQ,5,THEN
 	d5		= 2
 	Lp1		= 0.375*re1
+*ELSEIF,d1,EQ,6,THEN
+	d5		= 3
+	Lp1		= 0.5*re1
 *ELSEIF,d1,EQ,8,THEN
 	d5		= 4
 	Lp1		= 0.3214*re1	
+*ELSEIF,d1,EQ,10,THEN
+	d5		= 4
+	Lp1		= 0.5*re1
+*ELSEIF,d1,EQ,16,THEN
+	d5		= 6			
+	Lp1		= 0.3387*re1
 *ENDIF
 !
 !
