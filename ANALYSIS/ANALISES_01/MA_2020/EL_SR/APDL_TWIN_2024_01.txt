@@ -30,7 +30,7 @@ FINISH
 !************************************************************!
 ! referente aos tuneis longitudinais
 Re 		= 1 		! [m] raio da interface entre o túnel e o maciço
-esp		= 0.4		! [m] espessura do revestimento
+esp		= 0.1		! [m] espessura do revestimento
 Lp 		= 1/3*Re 	! [m] comprimento do passo de escavação
 nd0 		= 2 		! [Lp] número de passos que representam a dimensão não suportada
 npi 		= 3 		! [Lp] número de passos escavados na primeira escavação
